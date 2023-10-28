@@ -5,7 +5,7 @@ local DRR = {};
 DRR["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"));
 DRR["1"]["IgnoreGuiInset"] = true;
 DRR["1"]["ScreenInsets"] = Enum.ScreenInsets.DeviceSafeInsets;
-DRR["1"]["Name"] = [[DrRay]];
+DRR["1"]["Name"] = [[IsholaHub]];
 DRR["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 -- DrRay.TopBar
@@ -84,7 +84,7 @@ DRR["a"]["LayoutOrder"] = 2;
 DRR["a"]["Size"] = UDim2.new(0.9983566999435425, 0, 0.05511785298585892, 0);
 DRR["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["a"]["Position"] = UDim2.new(0, 0, 0.4645671844482422, 0);
-DRR["a"]["Name"] = [[TopBar]];
+DRR["a"]["TopBar"] = [[TopBar]];
 
 -- DrRay.TopBar.TopBar.UIGradient
 DRR["b"] = Instance.new("UIGradient", DRR["a"]);
@@ -337,7 +337,7 @@ DRR["2d"]["ScaleType"] = Enum.ScaleType.Slice;
 DRR["2d"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["2d"]["ImageTransparency"] = 0.5;
 DRR["2d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-DRR["2d"]["Image"] = [[rbxassetid://6014261993]];
+DRR["2d"]["Image"] = [[rbxassetid://7229442422]];
 DRR["2d"]["Size"] = UDim2.new(1, 47, 1, 47);
 DRR["2d"]["Name"] = [[DropShadow]];
 DRR["2d"]["BackgroundTransparency"] = 1;
@@ -347,7 +347,7 @@ DRR["2d"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 DRR["2e"] = Instance.new("ImageLabel", DRR["28"]);
 DRR["2e"]["BorderSizePixel"] = 0;
 DRR["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-DRR["2e"]["Image"] = [[rbxassetid://14133403065]];
+DRR["2e"]["Image"] = [[rbxassetid://7229442422]];
 DRR["2e"]["Size"] = UDim2.new(0.18741475045681, 0, 0.3247329592704773, 0);
 DRR["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["2e"]["Name"] = [[Logo]];
